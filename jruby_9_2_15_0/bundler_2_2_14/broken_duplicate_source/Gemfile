@@ -1,0 +1,9 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+gem "jwt" # some other gem
+
+group :test, :ci, :development do
+  gem "rubocop_runner", require: false, source: "https://rubygems.org" # `"https://rubygems.org"` defined twice
+end

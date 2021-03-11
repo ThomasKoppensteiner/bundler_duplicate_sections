@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    jwt (2.2.2)
+    rubocop_runner (2.2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    jwt (2.2.2)
+    rubocop_runner (2.2.0)
+
+PLATFORMS
+  x86_64-darwin-20
+
+DEPENDENCIES
+  jwt
+  rubocop_runner!
+
+BUNDLED WITH
+   2.2.14
